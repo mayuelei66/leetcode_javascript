@@ -28,7 +28,7 @@ var lengthOfLongestSubstring = function(s) {
         //check the Set size
         while (uniq.add(s[j]).size === (j - i + 1)){
             j++;
-            if (!s[i]) break;
+            if (!s[i]) break; //don't add undefined into Set
         }
         var sub = j - i;
         max = max > sub ? max : sub;
