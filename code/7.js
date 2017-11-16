@@ -1,8 +1,9 @@
 /**
  * @param {number} x
- * @return {boolean}
+ * @return {number}
  */
-var isPalindrome = function (x) {
-	if (x < 0) return false;
-	return x.toString().split('').reverse().join('') === x.toString();
+var reverse = function (x) {
+	const px = x > 0 ? x : (0 - x);
+	const rx = +(px + '').split('').reverse().join('');
+	return x < 0 ? (0 - rx) : rx
 };

@@ -10,3 +10,5 @@ the solutions for leetcode by javascript
 2.[Longest Substring Without Repeating Characters](https://github.com/mayuelei66/leetcode_javascript/blob/master/code/3.longest-substring-wihout-repeat.js)
 
 7.[Reverse Integer](https://github.com/mayuelei66/leetcode_javascript/blob/master/code/7.js)
+
+9.[Palindrome Number](https://github.com/mayuelei66/leetcode_javascript/blob/master/code/9.js)
